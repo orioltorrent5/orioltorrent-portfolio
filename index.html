@@ -1,3 +1,92 @@
-<html>
-    <a>HELLO</a>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Oriol Torrent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Hola, soy <span>Oriol Torrent</span></h1>
+        <p>Un desarrollador y tècnico informatico con amplios conecimientos del sector.</p>
+        <a href="#contact" class="cta-button">Contáctame</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Sobre mí</h2>
+      <div class="about-content">
+        <img src="./images/face.jpeg" alt="Tu foto">
+        <p>Soy un profesional con experiencia en el desarrollo de aplicaciones web, bases de datos y diseño UX/UI. Siempre en busca de nuevas tecnologías para mejorar mis habilidades y brindar soluciones prácticas a problemas reales.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Proyectos Destacados</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>Proyecto 1</h3>
+          <p>Descripción breve del proyecto. Usa tecnologías como React y Node.js.</p>
+          <a href="#" target="_blank" class="btn">Ver Proyecto</a>
+        </div>
+        <div class="project">
+          <h3>Proyecto 2</h3>
+          <p>Aplicación interactiva diseñada para resolver problemas específicos.</p>
+          <a href="#" target="_blank" class="btn">Ver Proyecto</a>
+        </div>
+        <div class="project">
+          <h3>Proyecto 3</h3>
+          <p>Un sistema completo para la gestión de datos empresariales.</p>
+          <a href="#" target="_blank" class="btn">Ver Proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Habilidades Técnicas</h2>
+      <div class="skills-list">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Git</span>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+      <form id="contact-form">
+        <input type="text" placeholder="Tu Nombre" required>
+        <input type="email" placeholder="Tu Correo" required>
+        <textarea placeholder="Escribe tu mensaje" required></textarea>
+        <button type="submit" class="cta-button">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Oriol Torrent. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
